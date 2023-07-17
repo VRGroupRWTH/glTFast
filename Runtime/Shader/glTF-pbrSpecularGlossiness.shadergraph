@@ -215,9 +215,6 @@
             "m_Id": "a485e801ebb34c1a92d4e26faf3b7416"
         },
         {
-            "m_Id": "8976c558e7e44acc9fbc328316fd0688"
-        },
-        {
             "m_Id": "bc16432923334c54a07a6046a6416ade"
         },
         {
@@ -792,9 +789,6 @@
                 "m_Id": "a485e801ebb34c1a92d4e26faf3b7416"
             },
             {
-                "m_Id": "8976c558e7e44acc9fbc328316fd0688"
-            },
-            {
                 "m_Id": "a1be8935dcdd42d78d2ee684d738ad18"
             },
             {
@@ -816,12 +810,6 @@
         "m_Id": ""
     },
     "m_ActiveTargets": [
-        {
-            "m_Id": "2a36fd86889242fba0092272df5ede5a"
-        },
-        {
-            "m_Id": "a2c10e7eba42446b9dd267488737a937"
-        },
         {
             "m_Id": "26975408980f4cd1ab2fdd8918b531a4"
         }
@@ -1468,23 +1456,6 @@
 }
 
 {
-    "m_SGVersion": 2,
-    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInTarget",
-    "m_ObjectId": "2a36fd86889242fba0092272df5ede5a",
-    "m_ActiveSubTarget": {
-        "m_Id": "34e960546abb4d4788e8a39ec66b84bd"
-    },
-    "m_AllowMaterialOverride": true,
-    "m_SurfaceType": 0,
-    "m_ZWriteControl": 0,
-    "m_ZTestMode": 4,
-    "m_AlphaMode": 0,
-    "m_RenderFace": 2,
-    "m_AlphaClip": false,
-    "m_CustomEditorGUI": ""
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "2ab13be948b54351a699677fc7d746b2",
@@ -1814,14 +1785,6 @@
     "m_TessellationMaxDisplacement": 0.009999999776482582,
     "m_Version": 1,
     "inspectorFoldoutMask": 9
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.Rendering.BuiltIn.ShaderGraph.BuiltInLitSubTarget",
-    "m_ObjectId": "34e960546abb4d4788e8a39ec66b84bd",
-    "m_WorkflowMode": 1,
-    "m_NormalDropOffSpace": 0
 }
 
 {
@@ -2462,30 +2425,6 @@
 }
 
 {
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.NormalMaterialSlot",
-    "m_ObjectId": "63b7bb93793b454aaeff1d28703f05ee",
-    "m_Id": 0,
-    "m_DisplayName": "Bent Normal",
-    "m_SlotType": 0,
-    "m_Hidden": false,
-    "m_ShaderOutputName": "BentNormal",
-    "m_StageCapability": 2,
-    "m_Value": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_DefaultValue": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-    },
-    "m_Labels": [],
-    "m_Space": 3
-}
-
-{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
     "m_ObjectId": "6786e082f93441fa8dd9cd85164970e5",
@@ -2899,39 +2838,6 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.ShaderGraph.BlockNode",
-    "m_ObjectId": "8976c558e7e44acc9fbc328316fd0688",
-    "m_Group": {
-        "m_Id": ""
-    },
-    "m_Name": "SurfaceDescription.BentNormal",
-    "m_DrawState": {
-        "m_Expanded": true,
-        "m_Position": {
-            "serializedVersion": "2",
-            "x": 0.0,
-            "y": 0.0,
-            "width": 0.0,
-            "height": 0.0
-        }
-    },
-    "m_Slots": [
-        {
-            "m_Id": "63b7bb93793b454aaeff1d28703f05ee"
-        }
-    ],
-    "synonyms": [],
-    "m_Precision": 0,
-    "m_PreviewExpanded": true,
-    "m_PreviewMode": 0,
-    "m_CustomColors": {
-        "m_SerializableColors": []
-    },
-    "m_SerializedDescriptor": "SurfaceDescription.BentNormal"
 }
 
 {
@@ -3430,31 +3336,6 @@
         "m_Guid": ""
     },
     "m_DefaultType": 0
-}
-
-{
-    "m_SGVersion": 0,
-    "m_Type": "UnityEditor.Rendering.HighDefinition.ShaderGraph.HDTarget",
-    "m_ObjectId": "a2c10e7eba42446b9dd267488737a937",
-    "m_ActiveSubTarget": {
-        "m_Id": "1cc2bd670a0d4c569016875ec3022ab9"
-    },
-    "m_Datas": [
-        {
-            "m_Id": "7ffc81ff976c4ece9884171d9b75dbe3"
-        },
-        {
-            "m_Id": "e68919060321477cbd7a0d08187f93d0"
-        },
-        {
-            "m_Id": "fa035e32181e481b8ae7227e5e3333d5"
-        },
-        {
-            "m_Id": "348585a314344632b659815900c70799"
-        }
-    ],
-    "m_CustomEditorGUI": "",
-    "m_SupportVFX": false
 }
 
 {
